@@ -114,7 +114,7 @@ export default function Home() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.0111606044916!2d32.41525785050112!3d34.75531168032441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706c40e4f8e45%3A0xef6b99eeeb6302dc!2sAnnabelle!5e0!3m2!1sen!2suk!4v1615730511868!5m2!1sen!2suk"
                 width="100%"
                 height="100%"
-                allowfullscreen=""
+                allowFullScreen
                 loading="lazy"
               ></iframe>
             </div>
@@ -123,20 +123,23 @@ export default function Home() {
             <h2 className="text-4xl mb-4 text-gray-600 font-bold">RSVP</h2>
             <p className="mb-2 ">
               We kindly ask you to let us know if you will be joining us on the
-              yacht. Please click the button to send us an email. <br />
+              yacht. Please click the button bellow to send us an email.
+              <br />
+              Or message Jo at <strong>jo_holliday85@hotmail.co.uk </strong>
+              <br />
               We hope you can make it!
             </p>
             <p className="font-bold">Jo &amp; Jamie</p>
             <div className="md:flex mt-4">
               <a
                 class="md:w-auto p-2 flex items-center justify-center rounded-md bg-green-600 text-white my-2 md:mr-1 no-underline cursor-pointer"
-                href="mailto:jo_holliday85@hotmail.co.uk?subject=I am coming"
+                href="mailto:jo_holliday85@hotmail.co.uk?subject=I'll be there"
               >
                 I'll be there
               </a>
               <a
-                class="md:w-auto p-2 flex items-center justify-center rounded-md bg-red-400 text-white my-2 md:ml-1 no-underline cursor-pointer"
-                href="mailto:jo_holliday85@hotmail.co.uk?subject=I can't make it"
+                class="md:w-auto p-2 flex items-center justify-center rounded-md bg-red-600 text-white my-2 md:ml-1 no-underline cursor-pointer"
+                href="mailto:jo_holliday85@hotmail.co.uk?subject=Nope, can't make it"
               >
                 Nope, can't make it
               </a>
