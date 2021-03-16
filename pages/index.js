@@ -24,7 +24,7 @@ export default function Home() {
               <p className="text-white font-bold">
                 10 YEAR WEDDING ANNIVERSARY
               </p>
-              <h1 className="text-6xl font-bold mb-8 text-blue-400">
+              <h1 className="text-4xl md:text-6xl font-bold mb-8 text-blue-400">
                 We're going back to Cyprus!
               </h1>
               <p className="mb-2 text-white">
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <div className="container mx-auto py-8 px-6">
           <section className="mb-16">
-            <h2 className="text-4xl mb-4 text-gray-600 font-bold">
+            <h2 className="text-2xl md:text-4xl mb-4 text-gray-600 font-bold">
               The Details
             </h2>
             <p>
@@ -65,7 +65,7 @@ export default function Home() {
           </section>
           <section className="mb-4 lg:flex">
             <div className="lg:w-3/6 mb-12">
-              <h2 className="text-4xl mb-4 text-gray-600 font-bold">
+              <h2 className="text-2xl md:text-4xl mb-4 text-gray-600 font-bold">
                 Travel &amp; Accommodation
               </h2>
               <p className="mb-2">
@@ -86,24 +86,24 @@ export default function Home() {
                 </a>
                 , fantastic.
                 <br /> Jet2 also offer 3 night stays if 5 nights doesn't suit
-                you. The Annabelle can also be booked via other holiday
-                providers.
+                you.
               </p>
               <p className="mb-2">
                 However, there are lots of other great hotels nearby, plus
-                self-catering villas on{' '}
-                <a
-                  target="_blank"
-                  href="https://www.airbnb.co.uk/s/Paphos--Cyprus/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&query=Paphos%2C%20Cyprus&place_id=ChIJyeIt9GMG5xQR57X0UP_9BWw&checkin=2022-05-11&checkout=2022-05-16&source=structured_search_input_header&search_type=autocomplete_click"
-                >
-                  Airbnb.
-                </a>
+                self-catering villas.
               </p>
               <p className="mb-2">
                 <a href="https://www.ryanair.com/gb/en">Ryanair</a> also offer
                 regular flights to Paphos.
               </p>
-              <p>
+              <p className="mb-2">
+                If you need any help with your travel and accommodation, contact
+                my travel agent friend, Sylv -{' '}
+                <a href="mailto:sylvia@morelifetravel.co.uk">
+                  sylvia@morelifetravel.co.uk
+                </a>
+              </p>
+              <p className="mb-2">
                 How / when you travel and where you stay is entirely up to you,
                 we'll just be excited to have you on the yacht on Friday 13th
                 May 2022!
@@ -120,7 +120,9 @@ export default function Home() {
             </div>
           </section>
           <section className="mb-8">
-            <h2 className="text-4xl mb-4 text-gray-600 font-bold">RSVP</h2>
+            <h2 className="text-2xl md:text-4xl mb-4 text-gray-600 font-bold">
+              RSVP
+            </h2>
             <p className="mb-2 ">
               We kindly ask you to let us know if you will be joining us on the
               yacht. Please click the button bellow to send us an email.
@@ -138,7 +140,7 @@ export default function Home() {
                 I'll be there
               </a>
               <a
-                class="md:w-auto p-2 flex items-center justify-center rounded-md bg-red-600 text-white my-2 md:ml-1 no-underline cursor-pointer"
+                className="md:w-auto p-2 flex items-center justify-center rounded-md bg-red-600 text-white my-2 md:ml-1 no-underline cursor-pointer"
                 href="mailto:jo_holliday85@hotmail.co.uk?subject=Nope, can't make it"
               >
                 Nope, can't make it
