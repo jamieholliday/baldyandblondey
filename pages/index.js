@@ -28,7 +28,7 @@ export default function Home() {
                 We're going back to Cyprus!
               </h1>
               <p className="mb-2 text-white">
-                Back in May 2012, we got married on a yacht in Pahos, Cyprus.
+                Back in May 2012, we got married on a yacht in Paphos, Cyprus.
               </p>
               <p className="mb-2 text-white">
                 We had such a ball celebrating with everyone both on the yacht
@@ -68,15 +68,12 @@ export default function Home() {
               <h2 className="text-2xl md:text-4xl mb-4 text-gray-600 font-bold">
                 Travel &amp; Accommodation
               </h2>
-              <p className="mb-2">
-                We will be staying at the Annabelle Hotel for 5 nights, booked
-                via Jet2.
+              <p>We will be staying at the Annabelle Hotel for 5 nights.</p>
+              <p>
+                We will be flying out from Stansted to Paphos with Jet2, on Weds
+                11th May 2022 (9:15) and returning on Mon 16th May 2022 (17:00).
               </p>
-              <p className="mb-2">
-                We will be flying out from Stansted to Paphos on Weds 11th May
-                2022 (9:15) and returning on Mon 16th May 2022 (17:00).
-              </p>
-              <p className="mb-2">
+              <p>
                 If you'd like to join us at the{' '}
                 <a
                   target="_blank"
@@ -85,28 +82,26 @@ export default function Home() {
                   Annabelle
                 </a>
                 , fantastic.
-                <br /> Jet2 also offer 3 night stays if 5 nights doesn't suit
-                you.
               </p>
-              <p className="mb-2">
+              <p>Jet2 also offer 3 night stays if 5 nights doesn't suit you.</p>
+              <p>
                 However, there are lots of other great hotels nearby, plus
                 self-catering villas.
               </p>
-              <p className="mb-2">
-                <a href="https://www.ryanair.com/gb/en">Ryanair</a> also offer
+              <p>
+                <a href="https://www.ryanair.com/gb/en">Ryanair</a> also offers
                 regular flights to Paphos.
               </p>
-              <p className="mb-2">
+              <p>
                 If you need any help with your travel and accommodation, contact
                 my travel agent friend, Sylv -{' '}
                 <a href="mailto:sylvia@morelifetravel.co.uk">
                   sylvia@morelifetravel.co.uk
                 </a>
               </p>
-              <p className="mb-2">
+              <p>
                 How / when you travel and where you stay is entirely up to you,
-                we'll just be excited to have you on the yacht on Friday 13th
-                May 2022!
+                we'll just be excited to have you on the yacht!
               </p>
             </div>
             <div className="lg:w-3/6 lg:pl-20 h-96 lg:h-80">
@@ -123,18 +118,19 @@ export default function Home() {
             <h2 className="text-2xl md:text-4xl mb-4 text-gray-600 font-bold">
               RSVP
             </h2>
-            <p className="mb-2 ">
+            <p>
               We kindly ask you to let us know if you will be joining us on the
-              yacht. Please click the button bellow to send us an email.
-              <br />
-              Or message Jo at <strong>jo_holliday85@hotmail.co.uk </strong>
-              <br />
-              We hope you can make it!
+              yacht on Friday 13th May 2022! Please click the button below to
+              send us an email.
             </p>
+            <p>
+              Or message Jo at <strong>jo_holliday85@hotmail.co.uk </strong>
+            </p>
+            <p>We hope you can make it!</p>
             <p className="font-bold">Jo &amp; Jamie</p>
             <div className="md:flex mt-4">
               <a
-                class="md:w-auto p-2 flex items-center justify-center rounded-md bg-green-600 text-white my-2 md:mr-1 no-underline cursor-pointer"
+                className="md:w-auto p-2 flex items-center justify-center rounded-md bg-green-600 text-white my-2 md:mr-1 no-underline cursor-pointer"
                 href="mailto:jo_holliday85@hotmail.co.uk?subject=I'll be there"
               >
                 I'll be there

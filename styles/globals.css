@@ -5,6 +5,7 @@
 @layer base {
   p {
     @apply text-gray-900;
+    @apply mb-2;
   }
   a {
     @apply text-blue-600;
